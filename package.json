@@ -1,0 +1,15 @@
+{
+  "name": "social-media-generator",
+  "version": "1.0.0",
+  "description": "AI-powered social media post generator",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.67",
+    "@types/react-dom": "^18.2.22",
+    "concurrently": "^8.2.2"
+  }
+}
